@@ -167,7 +167,7 @@ public class OperasiMatriks {
                 D[i][j] = k - B[i][j];
             }
         }
-        System.out.println("\nHasil penjumlahan Matriks");
+        System.out.println("\nHasil pengurangan Matriks");
         System.out.println("===========================");
         System.out.println("Pengurangan k dengan array2D A adalah");
         for (int i = 0; i < barisA; i++) {
@@ -178,7 +178,7 @@ public class OperasiMatriks {
         }
 
         System.out.println("");
-        System.out.println("Penjumlahan k dengan array2D B adalah");
+        System.out.println("pengurangan k dengan array2D B adalah");
         for (int i = 0; i < barisB; i++) {
             for (int j = 0; j < kolomB; j++) {
                 System.out.print(+(int) (D[i][j]) + " ");
@@ -200,9 +200,9 @@ public class OperasiMatriks {
                 D[i][j] = k * B[i][j];
             }
         }
-        System.out.println("\nHasil penjumlahan Matriks");
+        System.out.println("\nHasil perkalian Matriks");
         System.out.println("===========================");
-        System.out.println("Penjumlahan k dengan array2D A adalah");
+        System.out.println("perkalian k dengan array2D A adalah");
         for (int i = 0; i < barisA; i++) {
             for (int j = 0; j < kolomA; j++) {
                 System.out.print(+(int) (C[i][j]) + " ");
@@ -211,7 +211,7 @@ public class OperasiMatriks {
         }
 
         System.out.println("");
-        System.out.println("Penjumlahan k dengan array2D B adalah");
+        System.out.println("perkalian k dengan array2D B adalah");
         for (int i = 0; i < barisB; i++) {
             for (int j = 0; j < kolomB; j++) {
                 System.out.print(+(int) (D[i][j]) + " ");
@@ -233,9 +233,9 @@ public class OperasiMatriks {
                 D[i][j] = k / B[i][j];
             }
         }
-        System.out.println("\nHasil penjumlahan Matriks");
+        System.out.println("\nHasil pembagian Matriks");
         System.out.println("===========================");
-        System.out.println("Penjumlahan k dengan array2D A adalah");
+        System.out.println("pembagian k dengan array2D A adalah");
         for (int i = 0; i < barisA; i++) {
             for (int j = 0; j < kolomA; j++) {
                 System.out.print(+(C[i][j]) + " ");
@@ -244,7 +244,7 @@ public class OperasiMatriks {
         }
 
         System.out.println("");
-        System.out.println("Penjumlahan k dengan array2D B adalah");
+        System.out.println("pembagian k dengan array2D B adalah");
         for (int i = 0; i < barisB; i++) {
             for (int j = 0; j < kolomB; j++) {
                 System.out.print(+(D[i][j]) + " ");
